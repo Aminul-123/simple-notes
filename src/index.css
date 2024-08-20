@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cont {
+  display: flex;
+}
+.create {
+  height: auto;
+  width: 30vw;
+  background-color: antiquewhite;
+}
+.notes {
+  height: auto;
+  width: 70vw;
+  background-color: bisque;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.create h2 {
+  text-align: center;
+  color: brown;
+  margin: 2rem;
+  font-size: 2rem;
+}
+.titleCont {
+  height: 4rem;
+  width: 90%;
+}
+.title {
+  height: 2.5rem;
+  width: 100%;
+  margin: 1rem;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.descCont {
+  width: 90%;
+}
+.desc {
+  height: 16rem;
+  width: 100%;
+  margin: 1rem;
+  padding: 15px;
+  font-size: 1.2rem;
+  resize: none;
+}
+.createBtn {
+  height: 2.5rem;
+  width: 90%;
+  border-radius: 16px;
+  margin: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: cadetblue;
+  border: none;
+  color: white;
+}
+.singleNote {
+  height: 15rem;
+  width: 17rem;
+  border: 1px solid rgb(243, 137, 137);
+  padding: 1rem;
+  margin: 1rem;
+  overflow: auto;
+  scrollbar-width: thin;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.singleNote h3 {
+  color: cadetblue;
+  margin-bottom: 1rem;
+}
+.singleNote p {
+  font-size: 12px;
+}
+.singleTitle {
+  text-align: center;
+  margin-top: 4rem;
+}
+.del {
+  margin-left: 5rem;
+  height: 1.5rem;
+  width: 5rem;
+  background-color: rgb(101, 175, 190);
+  border: none;
+  color: #fff;
+  border-radius: 13px;
+}
+.notesHeading {
+  text-align: center;
+  margin: 1rem;
+  color: brown;
+}
